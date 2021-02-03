@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin:0;
+    padding:0;
+} 
+
+.header__top {
+    background-color: rgb(67, 67, 231);
+}
+
+.header__top-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+.Wather {
+    text-align: center;
+}
+
+.Form {
+    text-align: center;
+    margin-top: 50px;
+}
+
+input {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    height: 30px;
+    padding: 10px;
+    border: 2px solid rgb(67, 67, 231);
+}
+
+input + input {
+    margin: 10px auto;
+}
+
+
+CSS
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+button {
+    padding: 10px 8px;
+    margin: 0 auto;
+    background:rgb(67, 67, 231);
+    border: none;
+    color: #fff;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+button:hover {
+    background:#c6c6fa;
+    color: #000;
+}
+
+.card {
+    margin: 20px auto;
+    min-width: 150px;
+    min-height: 150px;
+    border:2px solid rgb(67, 67, 231);
+    color:rgb(67, 67, 231);
+    font-weight: 700;  
+}
+
+p {
+    margin: 5px 0;
+    
+}
+
+.card__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
